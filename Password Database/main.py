@@ -61,7 +61,7 @@ def insert_data():
 
 
 def authenticate():
-    keys = ["N1G-HTW-1NG", "R3D-H00D", "ST4R-F1R3", "B34S-TB0Y"]
+    keys = [REDACTED, REDACTED, REDACTED, REDACTED]
     while True:
         authentication = str(input("\nEnter your authentication key: "))
         if authentication in keys:
